@@ -1,2 +1,2 @@
 # Indeximal.github.io
-Github Pages
+Github Pages Repository

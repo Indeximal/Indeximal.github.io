@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg version="1.1" viewBox="170 70 400 350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+*{stroke-linecap:butt;stroke-linejoin:round;}
+  </style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 720 504 
+L 720 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 242.987392 336.110357 
+C 257.712069 357.845009 277.812493 375.404851 301.327886 387.076936 
+C 324.843278 398.749021 350.983305 404.14106 377.198031 402.727064 
+C 403.412757 401.313068 428.821126 393.14056 450.944575 379.006761 
+C 473.068023 364.872962 491.163 345.252898 503.464357 322.060488 
+C 515.765713 298.868078 521.860011 272.882801 521.152756 246.639496 
+C 520.445501 220.396191 512.960464 194.776876 499.427804 172.280691 
+C 485.895144 149.784505 466.769682 131.167529 443.91709 118.245831 
+C 421.064498 105.324132 395.252833 98.532 369 98.532 
+L 369 250.74 
+L 242.987392 336.110357 
+z
+" style="fill:#9e0142;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 226.174957 303.35447 
+C 228.302022 309.128512 230.777275 314.768256 233.587085 320.242645 
+C 236.396894 325.717033 239.536092 331.015998 242.987392 336.110357 
+L 369 250.74 
+L 226.174957 303.35447 
+z
+" style="fill:#d43d4f;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 220.859838 285.693792 
+C 221.566221 288.687564 222.363193 291.659234 223.249657 294.60471 
+C 224.136121 297.550185 225.111669 300.468112 226.174957 303.35447 
+L 369 250.74 
+L 220.859838 285.693792 
+z
+" style="fill:#f46d43;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 218.283445 271.995478 
+C 218.607986 274.296702 218.985188 276.590191 219.414756 278.874142 
+C 219.844323 281.158093 220.326144 283.431906 220.859838 285.693792 
+L 369 250.74 
+L 218.283445 271.995478 
+z
+" style="fill:#fdad60;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 217.012937 258.938036 
+C 217.130745 261.122141 217.295619 263.303453 217.507445 265.480452 
+C 217.71927 267.657451 217.977997 269.82963 218.283445 271.995478 
+L 369 250.74 
+L 217.012937 258.938036 
+z
+" style="fill:#fee08b;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 216.865058 246.024638 
+C 216.798355 248.176706 216.777324 250.329947 216.801979 252.482906 
+C 216.826634 254.635866 216.896969 256.788061 217.012937 258.938036 
+L 369 250.74 
+L 216.865058 246.024638 
+z
+" style="fill:#ffffbe;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 217.675097 234.367797 
+C 217.465558 236.304525 217.293219 238.245097 217.158175 240.188441 
+C 217.023131 242.131785 216.925407 244.077543 216.865058 246.024638 
+L 369 250.74 
+L 217.675097 234.367797 
+z
+" style="fill:#e6f598;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 219.302265 223.210681 
+C 218.962295 225.059355 218.656599 226.914169 218.385335 228.774167 
+C 218.11407 230.634165 217.877284 232.499028 217.675097 234.367797 
+L 369 250.74 
+L 219.302265 223.210681 
+z
+" style="fill:#aadca4;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 221.699109 212.403035 
+C 221.23428 214.189034 220.801972 215.983339 220.402398 217.78506 
+C 220.002825 219.586781 219.636053 221.395621 219.302265 223.210681 
+L 369 250.74 
+L 221.699109 212.403035 
+z
+" style="fill:#66c2a5;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 224.356063 203.354277 
+C 223.86664 204.84823 223.400392 206.349675 222.957487 207.858073 
+C 222.514582 209.366471 222.095072 210.88164 221.699109 212.403035 
+L 369 250.74 
+L 224.356063 203.354277 
+z
+" style="fill:#3387bc;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 368.999975 98.532 
+C 336.924803 98.532005 305.655925 108.670932 279.683728 127.492773 
+C 253.711532 146.314614 234.341775 172.873099 224.356063 203.354277 
+L 369 250.74 
+L 368.999975 98.532 
+z
+" style="fill:#5e4fa2;stroke:#ffffff;stroke-linejoin:miter;"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 516.910792, 331.951912)" x="516.910792" y="331.951912">😂</text>
+   </g>
+   <g id="text_2">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 469.848268, 306.989741)" x="469.848268" y="306.989741">3055</text>
+   </g>
+   <g id="text_3">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 220.045793, 329.952284)" x="220.045793" y="329.952284">😅</text>
+   </g>
+   <g id="text_4">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 267.440313, 305.626358)" x="267.440313" y="305.626358">180</text>
+   </g>
+   <g id="text_5">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 208.674623, 301.750556)" x="208.674623" y="301.750556">👌</text>
+   </g>
+   <g id="text_6">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 259.687243, 286.397907)" x="259.687243" y="286.397907">90</text>
+   </g>
+   <g id="text_7">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 204.456231, 284.446931)" x="204.456231" y="284.446931">👍</text>
+   </g>
+   <g id="text_8">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 256.811067, 274.599982)" x="256.811067" y="274.599982">68</text>
+   </g>
+   <g id="text_9">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 202.358189, 269.857622)" x="202.358189" y="269.857622">😇</text>
+   </g>
+   <g id="text_10">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 255.380583, 264.554714)" x="255.380583" y="264.554714">64</text>
+   </g>
+   <g id="text_11">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 201.582177, 255.416572)" x="201.582177" y="255.416572">🎉</text>
+   </g>
+   <g id="text_12">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 254.851484, 254.806555)" x="254.851484" y="254.806555">63</text>
+   </g>
+   <g id="text_13">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 201.973992, 241.89266)" x="201.973992" y="241.89266">🙄</text>
+   </g>
+   <g id="text_14">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 255.118631, 245.585706)" x="255.118631" y="245.585706">57</text>
+   </g>
+   <g id="text_15">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 203.323868, 229.336958)" x="203.323868" y="229.336958">😑</text>
+   </g>
+   <g id="text_16">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 256.039001, 237.025)" x="256.039001" y="237.025">55</text>
+   </g>
+   <g id="text_17">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 205.542638, 217.248941)" x="205.542638" y="217.248941">😏</text>
+   </g>
+   <g id="text_18">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 257.551799, 228.78317)" x="257.551799" y="228.78317">54</text>
+   </g>
+   <g id="text_19">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 208.353236, 206.329255)" x="208.353236" y="206.329255">🤷</text>
+   </g>
+   <g id="text_20">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 259.468115, 221.33793)" x="259.468115" y="221.33793">45</text>
+   </g>
+   <g id="text_21">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 270.752101, 117.927426)" x="270.752101" y="117.927426">131 Andere</text>
+   </g>
+   <g id="text_22">
+    <text style="font-family:sans-serif;font-size:10px;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 302.012796, 161.063955)" x="302.012796" y="161.063955">930</text>
+   </g>
+  </g>
+ </g>
+</svg>
