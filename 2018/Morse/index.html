@@ -7,7 +7,6 @@
         	// create web audio api context
 			var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 			var oscillator;
-			const beepUnit = 150;
 
 			// https://stackoverflow.com/questions/879152/how-do-i-make-javascript-beep/13194087
 			// https://developer.mozilla.org/en-US/docs/Web/API/OscillatorNode
@@ -37,6 +36,7 @@
 			}
 
 			window.onkeydown = function (e) {
+				beepUnit = document.getElementById("beepunit").value;
 				if (e.key == " ") {
 					startBeep();
 				} else if (e.key == ".") {
@@ -57,8 +57,8 @@
     </head>
 
     <body>
-    	<button onclick="beep(500);">Play</button>
+    	Beep unit lenght in milliseconds:
+    	<input type="number" id="beepunit" value="100">
     </body>
-
 </html>
 
