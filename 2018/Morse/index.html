@@ -1,64 +1,38 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Simple Beep</title>
-        <meta charset="utf-8">
-        <script>
-        	// create web audio api context
-			var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-			var oscillator;
+	<head>
+		<title>Simple Beep</title>
+		<meta charset="utf-8">
+		<script src="morse.js"></script>
+	</head>
 
-			// https://stackoverflow.com/questions/879152/how-do-i-make-javascript-beep/13194087
-			// https://developer.mozilla.org/en-US/docs/Web/API/OscillatorNode
-
-			function beep(duration, freq=440) {
-				startBeep(freq);
-				window.setTimeout(stopBeep, duration)
-			}
-
-			playing = false;
-
-			function startBeep(freq=440) {
-				if (playing) { return; }
-				playing = true;
-
-				oscillator = audioCtx.createOscillator();
-
-				oscillator.type = 'sine';
-				oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime); // value in hertz
-				oscillator.connect(audioCtx.destination);
-				oscillator.start();
-			}
-
-			function stopBeep() {
-				oscillator.stop();
-				playing = false;
-			}
-
-			window.onkeydown = function (e) {
-				beepUnit = document.getElementById("beepunit").value;
-				if (e.key == " ") {
-					startBeep();
-				} else if (e.key == ".") {
-					beep(beepUnit);
-				} else if (e.key == "-") {
-					beep(beepUnit*3);
-				} else if (e.key == "Enter") {
-					beep(beepUnit, 880);
-				}
-			}
-			window.onkeyup = function (e) {
-				if (e.key == " " || e.key == "Escape") {
-					stopBeep();
-				}
-			}
-
-        </script>
-    </head>
-
-    <body>
-    	Beep unit lenght in milliseconds:
-    	<input type="number" id="beepunit" value="100">
-    </body>
+	<body>
+		<div>
+			Unit lenght in milliseconds: (= 1200/WPM)
+			<input type="number" id="beepunit" value="100">	
+		</div>
+		<div>
+			Frequency in hertz:
+			<input type="number" id="frequency" value="440" step="10">
+		</div>
+		<div>
+			Volume:
+			<input type="range" min="0" max="100" id="volume" value="50">
+		</div>
+		<div>
+			Allowed Chars:
+			<input style="width: 30em;" type="text" id="charset" value="ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+			<button class="presetcharsetbutton" charset="ETAON">Top 5</button>
+			<button class="presetcharsetbutton" charset="ETAONRISHD">Top 10</button>
+			<button class="presetcharsetbutton" charset="ETAONRISHDLFCMUGYPWB">Top 20</button>
+			<button class="presetcharsetbutton" charset="ABCDEFGHIJKLMNOPQRSTUVWXYZ">Alphabet</button>
+			<button class="presetcharsetbutton" charset="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789">Alphanum</button>
+		</div>
+		<div>
+			<button id="buttonPlay">Play</button>
+			<input style="width: 1em;" type="text" id="charinput">
+			<span id="counterCorrect">0</span> out of <span id="counterAttempts">0</span> correct
+		</div>
+	</body>
 </html>
 
