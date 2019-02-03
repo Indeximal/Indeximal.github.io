@@ -128,7 +128,7 @@ function main() {
 
 		document.getElementById("buttonPlay").onclick = playNextCharacter;
 
-		$("#charinput").oninput = function(e) {
+		$("#charinput").addEventListener("input", function(e) {
 			if (e.data.toUpperCase() == targetChar) {
 				correctCounter += 1;
 				targetChar = "";
@@ -138,7 +138,7 @@ function main() {
 			totalAttempts += 1;
 			$("#counterAttempts").innerHTML = totalAttempts;
 			e.target.value = "";
-		}
+		});
 	};
 
 	var totalAttempts = 0;
